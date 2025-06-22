@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: hsl(61, 92%, 83%);
+}
+
+.title {
+    font-size: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 100px auto 50px;
+}
+
+.food-items, .description, .ingredients, .steps, .return-home, .cook-notes {
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Comic Sans MS', Arial, sans-serif;
+}
+
+li.cake, li.aloo-tikki,
+li.paneer-tikka {
+    margin: 20px auto;
+    width: 300px;
+    padding: 15px;
+    border: 2px solid;
+}
+
+li.cake {
+    background-color: pink;
+}
+
+li.aloo-tikki {
+    background-color: hsl(43, 89%, 50%);
+}
+
+li.paneer-tikka {
+    background-color: greenyellow;
+}
+
+
+.html-cake {
+    background-color: pink;
+}
+
+
+.html-aloo-tikki {
+    background-color: hsl(43, 89%, 50%);
+}
+
+
+.html-paneer-tikka {
+    background-color: greenyellow;
+}
+
+.title.cake, .title.aloo-tikki, .title.paneer-tikka {
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+.description {
+    padding: 15px;
+    display: inline-block;
+    width: 350px;
+    text-align: left;
+    vertical-align: top;
+    margin-left: 20px;
+    border-left: 5px solid;
+}
+
+.description.cake {
+    background-color:hwb(0 82% 2%);
+}
+
+
+.description.aloo-tikki {
+    font-size: 20px;
+    background-color: hsl(43, 64%, 70%);
+}
+
+
+.description.paneer-tikka {
+    background-color: rgb(218, 255, 144);
+    font-size: 20px;
+}
+
+
+img {
+    margin-left: 300px;
+}
+
+.ingredients {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.ingredients.cake {
+    border-left: 5px solid;
+    width: 600px;
+    margin-left: 300px;
+    background-color: hwb(0 82% 2%);
+    padding: 30px;
+}
+
+
+
+
+
+.left-container, 
+.right-container {
+    display: inline-block;
+    border-left: 5px solid;
+    width: 400px;
+    padding: 30px;
+    margin: 20px;
+}
+
+.left-container.aloo-tikki,
+.right-container.aloo-tikki {
+    background-color: hsl(43, 64%, 70%);
+}
+
+.left-container.paneer-tikka,
+.right-container.paneer-tikka {
+    background-color: rgb(218, 255, 144);
+}
+
+
+.left-container {
+    vertical-align: top;
+    margin-left: 250px;
+}
+
+
+.right-container {
+    vertical-align:top;
+}
+
+.steps, .cook-notes {
+    text-align: left;
+    font-size: 20px;
+    margin: 50px 0px 0px 200px;
+    border-left: 5px solid;
+    width: 1000px;
+    padding: 40px;
+}
+
+.steps.cake {
+    background-color: hwb(0 82% 2%);
+}
+
+.steps.aloo-tikki {
+    background-color: hsl(43, 64%, 70%);
+}
+
+.steps.paneer-tikka, .cook-notes {
+    background-color: rgb(218, 255, 144);
+}
+
+.return-home {
+    background-color: hsl(61, 92%, 83%);
+    width: 100px;
+    color: black;
+    border: 5px solid;
+    padding: 10px;
+    display: block;
+    margin: 50px auto;
+}
+
